@@ -1,0 +1,204 @@
+body{
+    background-color:#c8c8c8;
+    font-family:"Adobe 楷体 Std R";
+}
+body,img,nav,div,header{
+    padding:0;
+    margin:0;
+}
+.backimg img{
+    width:100%;
+    height:200px;
+    display:block;
+}
+nav{
+    background-color:#ffffff;
+    margin:0;
+    padding:0;
+}
+.menu{
+    text-align:center;
+    padding:10px 0;
+}
+.menu .focus{
+    color:orangered;
+}
+.menu a{
+    margin:0 15px;
+    text-decoration:none;
+    font-size:16px;
+}
+.mainLeft{
+    width:600px;
+    height:auto;
+    float:left;
+    margin-left:200px;
+}
+.mainLeft .listbox{
+    width:600px;
+    height:200px;
+    background-color:#ffffff;
+    margin-top:30px;
+}
+.mainLeft .listbox h1{
+    text-align:center;
+    padding-top:25px;
+}
+.mainLeft .listbox .colDefault{
+    text-align:center;
+    font-size:14px;
+}
+.mainLeft .listbox .colDefault .colInfo{
+    color:dodgerblue;
+}
+.mainLeft .listbox .coldemo{
+    font-weight:bold;
+    margin-left:30px;
+    font-size:14px;
+}
+.mainLeft .listbox .function{
+    display:block;
+    margin-left:30px;
+    width:95px;
+    height:28px;
+    background:orangered;
+    line-height:28px;
+    text-align:center;
+    border-radius:2px;
+}
+.mainLeft .listbox .function a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:12px;
+}
+
+/*右边边框登陆注册*/
+.mainRight{
+    width:280px;
+    float:right;
+    margin-right:240px;
+}
+.mainRight .rightBox{
+    background-color:#ffffff;
+    margin-top:30px;
+    width:280px;
+    height:250px;
+}
+.mainRight .rightBox .colinfo{
+    font-size:16px;
+    margin-left:20px;
+}
+.mainRight .rightBox .colDanger{
+    font-size:14px;
+    margin-left:20px;
+    color:red;
+}
+.mainRight .rightBox .colDanger a{
+    margin-left:80px;
+}
+.mainRight .rightBox .colDanger a:hover{
+    color:orangered;
+}
+.mainRight .rightBox #logoutBtn{
+    display:block;
+    width:70px;
+    height:28px;
+    line-height:28px;
+    text-align:center;
+    font-size:14px;
+    text-decoration:none;
+    margin-left:170px;
+    margin-top:40px;
+    background-color:orangered;
+    color:#ffffff;
+    font-weight:bold;
+}
+.mainRight .rightBox .title{
+    padding:20px 20px 0px 20px;
+    font-weight:bold;
+}
+.part-line{
+    border:1px solid #eee;
+    width:220px;
+    float:left;
+    margin-left:20px;
+    margin-top:5px;
+}
+.mainRight .rightBox .title span{
+    padding-bottom:5px;
+    border-bottom:2px solid orangered;
+    padding-right:30px;
+}
+.mainRight .rightBox .line{
+    padding:8px 20px 0px 20px;
+}
+.mainRight .rightBox .line .colDark{
+    font-size:14px;
+    width:50px;
+    display:inline-block;
+    text-align:right;
+}
+.mainRight .rightBox .line input{
+    width:150px;
+    margin-left:5px;
+    text-align:left;
+    display:inline-block;
+    border-radius:2px;
+    border:1px solid #ccc;
+    height:26px;
+}
+.mainRight .rightBox .line button{
+    background:orangered;
+    margin-left:56px;
+    border-radius:2px;
+    width:150px;
+    height:28px;
+    border:0;
+    font-weight:bold;
+    color:#ffffff;
+    font-size:12px;
+}
+.mainRight .rightBox .text-left{
+    float:right;
+    font-size:12px;
+    margin-right:20px;
+    margin-top:20px;
+}
+.mainRight .rightBox .text-left a:hover{
+    color:orangered;
+}
+.mainRight .rightBox .prompt{
+    color:orangered;
+    font-size:14px;
+    text-align:center;
+}
+
+/*分页处理*/
+.pager{
+    background:#fff;
+    margin:20px 0;
+    display:inline-block;
+    height:50px;
+}
+.pager .lastclear{
+    height:50px;
+    line-height:50px;
+    padding:0px;
+    margin:0px;
+}
+.pager .lastclear a{
+    text-decoration: none;
+}
+.pager .lastclear li{
+    float:left;
+    list-style:none;
+}
+.pager .lastclear .previous{
+    margin:0px 30px;
+}
+.pager .lastclear .middle{
+    margin:0px 147px;
+}
+.pager .lastclear .next{
+    margin:0px 30px;
+}
